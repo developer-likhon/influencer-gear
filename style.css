@@ -104,6 +104,30 @@ nav {
   padding-top: 30px;
 }
 
+/* brand images styles */
+.brand-img hr {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  margin-top: 36px;
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  box-shadow: 0px 1px 10px gray;
+}
+
+.brand-imgs {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
 /* footer styles */
 
 footer {
