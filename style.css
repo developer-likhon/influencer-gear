@@ -19,7 +19,7 @@ nav {
   display: flex;
   width: 1200px;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 50px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
@@ -71,6 +71,7 @@ nav {
 }
 
 .hero button {
+  height: 44px;
   border-radius: 41px;
   background: #e02c6d;
   display: flex;
@@ -80,6 +81,7 @@ nav {
   padding: 10px 24px;
   border: none;
   margin-top: 16px;
+  box-sizing: border-box;
 }
 
 .hero button a {
@@ -90,7 +92,8 @@ nav {
 }
 
 .btn-img {
-  margin-top: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .hero-img {
