@@ -1,14 +1,17 @@
-/* Poppins Google Font Link here */
-
+/* Google Font Link here */
+/* font-family: "Poppins", serif; */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-/* font-family: "Poppins", serif; */
+/* font-family: "Manrope", serif; */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Poppins", serif;
 }
+
+/* hero styles */
 
 /* nav styles */
 
@@ -19,12 +22,14 @@ nav {
   margin-top: 80px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 50px;
 }
 
-.logo {
+.nav-logo {
   color: #3a3a3a;
   font-size: 24px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .nav-menu {
@@ -39,4 +44,46 @@ nav {
   color: #3a3a3a;
   font-size: 16px;
   font-weight: 600;
+}
+
+/* footer styles */
+
+footer {
+  width: 100%;
+  background: #0a0826;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+.web-foot {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.web-foot h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.web-foot h3 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.web-foot h4 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.web-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 17px;
 }
